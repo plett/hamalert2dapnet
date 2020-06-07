@@ -22,16 +22,15 @@ going to be required.
 
 ## Write app
 
-* [ ] Write Lambda to receive HAMAlert messages on a unique per-user URL and
-  send it to DAPNET based on hard coded auth, destination callsign etc which are
-  stored in environment variables
+* [ ] Write Lambda to receive HAMAlert messages on a URL and send it to DAPNET
+  based on hard coded auth, destination callsign etc which are stored in
+  environment variables
+* [ ] Put a friendly URL on it. That will involve inter-account ACM :(
 * [ ] Ship it
 
 # v1.0
 
 Note, this may never happen!
-
-##
 
 * [ ] A DynamoDB to store the unique URL, destination callsign and tx group so
   it can be used by multiple users
